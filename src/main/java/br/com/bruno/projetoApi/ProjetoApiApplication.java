@@ -25,7 +25,7 @@ public class ProjetoApiApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		userRepository.deleteAll();
+		
 		
 		User maria = new User(null,"maria silva","maria@gmail.com");
 		User alex = new User(null,"alex","alex@gmail.com");
